@@ -11,7 +11,7 @@ typedef struct polish_stack {
 		int *stack;
 	} polish_stack_t;
 
-// TODO: Make stack_push check if polish-stack_t.stack has available space. If not realloc. DoNE!!
+// TODO: Make stack_push check if polish-stack_t.stack has available space. If not realloc. DONE!!
 //	 Make stack_push a varyadic function. DONE!!
 //	 Input checking for unexcpected input values.
 void stack_push_null(polish_stack_t *stack, ...); // Push a number onto the stack
