@@ -97,13 +97,7 @@ int main(void) {
 		.stack = (int*) malloc(sizeof(int) * SIZE)
 	};
 	stack_push(&stack, 5);
-	stack_push(&stack, 5);
-	stack_print(&stack);
-	stack_push(&stack, 5);
-	stack_print(&stack);
-	stack_push(&stack, 5);
-	stack_print(&stack);
-	stack_push(&stack, 5);
+	stack_push(&stack, 5,4);
 	stack_print(&stack);
 	return 0;
 }
