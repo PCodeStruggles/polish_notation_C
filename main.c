@@ -13,7 +13,6 @@ typedef struct polish_stack {
 
 // TODO: Make stack_push check if polish-stack_t.stack has available space. If not realloc. DONE!!
 //	 Make stack_push a varyadic function. DONE!!
-//	 Input checking for unexcpected input values.
 void stack_push_null(polish_stack_t *stack, ...); // Push a number onto the stack
 int stack_pop(polish_stack_t *stack); // Pop the last number from the stack
 void stack_sum(polish_stack_t *stack); // Pop the last two number from the stack and push onto the stack the sum between them
