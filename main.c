@@ -4,7 +4,7 @@
 #define SIZE 64
 #define stack_push(stack, ...) stack_push_null(stack, __VA_ARGS__, NULL);
 
-// TODO: Make polish_stack_t.stack a dynamic array. DONE !!
+// TODO: Make polish_stack_t.stack a dynamic array. DONE!!
 typedef struct polish_stack {
 		int stack_pointer;
 		int capacity;
